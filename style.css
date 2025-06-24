@@ -1,0 +1,45 @@
+    body {
+       
+      display: flex;
+      
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-image: url('fundo.png');   
+      background-size: cover;
+      background-position: center;          
+      background-repeat: no-repeat;         
+      background-attachment: fixed;            
+    }
+
+    .quadrado {
+      
+      width: 300px;
+      height: 300px;
+      margin: 20px;
+      background-color: #ddd;
+      border: 2px solid #5c5c5c;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      transition: transform 0.3s;
+      padding-top: 1000 px;
+      
+    }
+
+    .quadrado:hover {
+      transform: scale(1.05);
+      border-color: #888;
+    }
+
+    .quadrado img {
+      max-width: 120%;
+      max-height: 100%;
+      object-fit: cover;
+    }
+
+    a {
+      text-decoration: none;
+    }
